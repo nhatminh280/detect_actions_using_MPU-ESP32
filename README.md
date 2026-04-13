@@ -282,7 +282,7 @@ if (data.startsWith("Predicted:")) {
 To showcase your project, add a demo video in the following format:
 
 ```markdown
-![Hardware Setup](demo/hardware_photo.jpg)
+![Hardware Setup](demo/hardware_photo.png)
 ```
 
 
