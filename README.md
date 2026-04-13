@@ -281,33 +281,9 @@ if (data.startsWith("Predicted:")) {
 
 To showcase your project, add a demo video in the following format:
 
-### Option A — GitHub / README embed (GIF)
 ```markdown
-![Demo](demo/gesture_demo.gif)
-```
-Record with any screen capture tool, convert to GIF with [ezgif.com](https://ezgif.com) (keep under 10 MB).
+![Hardware Setup](demo/hardware.jpg)
 
-### Option B — YouTube
-```markdown
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-```
-
-### What to capture in your demo
-- ESP32 + MPU6050 setup visible
-- OLED screen showing gesture name
-- Each of the 3 gestures performed clearly: Clapping → Fist Making → Thumbs Up
-- Serial Monitor showing prediction output (optional split screen)
-- LED turning on/off based on prediction (GPIO 2, ON for Fist Making class 1)
-
-**Suggested demo/folder structure**:
-```
-demo/
-├── gesture_demo.gif     # Short GIF (< 10 MB)
-├── gesture_demo.mp4     # Full video
-└── hardware_photo.jpg   # Photo of the hardware setup
-```
-
----
 
 ## Configuration Parameters
 
